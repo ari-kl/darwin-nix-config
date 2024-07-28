@@ -10,7 +10,12 @@
 
     # Packages not linked through another file
     packages = [
+      # Nix utilities
       pkgs.nixpkgs-fmt
+      pkgs.flake-checker
+
+      # CLI tools
+      q # dns query tool
     ];
   };
 
