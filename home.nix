@@ -9,10 +9,10 @@
     sessionVariables = import ./shell/env.nix;
 
     # Packages not linked through another file
-    packages = [
+    packages = with pkgs; [
       # Nix utilities
-      pkgs.nixpkgs-fmt
-      pkgs.flake-checker
+      nixpkgs-fmt
+      flake-checker
 
       # CLI tools
       q # dns query tool
