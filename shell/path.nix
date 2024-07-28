@@ -1,0 +1,4 @@
+[
+  # Rust
+  "$HOME/.cargo/bin"
+]
