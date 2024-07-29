@@ -8,3 +8,10 @@ This repository contains my personal [nix-darwin](https://github.com/LnL7/nix-da
 2. Clone this repository
 3. Initial setup: run `nix run nix-darwin -- switch --flake /path/to/repo`
 4. Subsequent updates: run `darwin-rebuild switch --flake /path/to/repo`
+
+## Structure
+
+- `darwin.nix`: Nix-darwin configuration
+- `home.nix`: Home-manager configuration
+- `programs/`: Configuration for configurable programs
+- `shell/`: Shell configuration (aliases, environment variables, path, etc.)
